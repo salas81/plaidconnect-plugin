@@ -1,0 +1,11 @@
+{
+  "name": "plaid-connect",
+  "version": "0.2.0",
+  "description": "Plaid financial data integration for Claude Code — connect bank accounts, fetch transactions, verify identity, and analyze spending via a local REST API server",
+  "author": {
+    "name": "Lorenzo",
+    "url": "https://github.com/salas81"
+  },
+  "license": "MIT",
+  "keywords": ["plaid", "banking", "finance", "transactions", "identity", "ach"]
+}
