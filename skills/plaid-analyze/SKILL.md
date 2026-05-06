@@ -1,6 +1,15 @@
 ---
 name: plaid-analyze
-description: This skill should be used when the user asks to "analyze" financial data, "find spending patterns", "categorize transactions", "spending by category", "monthly summary", "income vs expenses", "financial insights", "spending trends", "top merchants", "recurring payments", "budget analysis", "cash flow analysis", "identify subscriptions", or "audit my spending".
+description: Analyze financial data from PlaidConnect — spending patterns, subscriptions, cash flow, and merchant breakdowns. Use when the user asks to "analyze spending", "find spending patterns", "categorize transactions", "monthly summary", "income vs expenses", "financial insights", "spending trends", "top merchants", "recurring payments", "budget analysis", "cash flow analysis", "identify subscriptions", or "audit my spending".
+version: 1.0.0
+author: Lorenzo
+license: MIT
+metadata:
+  hermes:
+    tags: [plaid, finance, banking, analysis, spending, budgeting]
+    related_skills: [plaid-setup, plaid-link, plaid-query]
+prerequisites:
+  env_vars: [PLAIDCONNECT_URL, API_KEY]
 ---
 
 # Plaid Analyze

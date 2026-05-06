@@ -1,6 +1,15 @@
 ---
 name: plaid-link
-description: This skill should be used when the user asks to "connect a bank account", "link bank", "add bank", "create link token", "exchange token", "Plaid Link", "connect financial institution", or "verify bank login".
+description: Connect bank accounts via Plaid Link — create link tokens, exchange public tokens, and manage connected financial institutions. Use when the user asks to "connect a bank account", "link bank", "add bank", "create link token", "exchange token", "Plaid Link", "connect financial institution", or "verify bank login".
+version: 1.0.0
+author: Lorenzo
+license: MIT
+metadata:
+  hermes:
+    tags: [plaid, finance, banking, link, authentication]
+    related_skills: [plaid-setup, plaid-query, plaid-analyze]
+prerequisites:
+  env_vars: [PLAIDCONNECT_URL, API_KEY]
 ---
 
 # Plaid Link

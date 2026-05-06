@@ -1,6 +1,15 @@
 ---
 name: plaid-query
-description: This skill should be used when the user asks to "get", "fetch", "query", "show", "pull", or "retrieve" financial data via Plaid. Trigger phrases include "get my transactions", "show my accounts", "fetch balances", "get account numbers", "show identity", "pull transactions", "check balances", "get routing number", "what are my bank accounts", "get spending history".
+description: Query financial data from connected Plaid items — accounts, transactions, balances, identity, and ACH routing numbers. Use when the user asks to "get my transactions", "show my accounts", "fetch balances", "get account numbers", "show identity", "pull transactions", "check balances", "get routing number", "what are my bank accounts", or "get spending history".
+version: 1.0.0
+author: Lorenzo
+license: MIT
+metadata:
+  hermes:
+    tags: [plaid, finance, banking, transactions, accounts, identity]
+    related_skills: [plaid-setup, plaid-link, plaid-analyze]
+prerequisites:
+  env_vars: [PLAIDCONNECT_URL, API_KEY]
 ---
 
 # Plaid Query

@@ -1,6 +1,15 @@
 ---
 name: plaid-setup
-description: This skill should be used when the user asks to "set up plaid", "configure plaid", "start plaid server", "plaid credentials", "connect to plaid", or "initialize plaid". Also use when the PlaidConnect server isn't running and needs to be started.
+description: Configure and manage the PlaidConnect REST API server for financial data integration. Use when the user asks to "set up plaid", "configure plaid", "start plaid server", "plaid credentials", "connect to plaid", or "initialize plaid". Also use when the PlaidConnect server isn't running and needs to be started.
+version: 1.0.0
+author: Lorenzo
+license: MIT
+metadata:
+  hermes:
+    tags: [plaid, finance, banking, setup, configuration]
+    related_skills: [plaid-link, plaid-query, plaid-analyze]
+prerequisites:
+  env_vars: [PLAIDCONNECT_URL, API_KEY]
 ---
 
 # PlaidConnect Setup

@@ -1,0 +1,11 @@
+name: plaid-connect
+version: 1.0.0
+description: "Plaid financial data integration — connect bank accounts, fetch transactions, verify identity, and analyze spending via a REST API server. Works with both Claude Code and Hermes."
+author: Lorenzo
+kind: skill
+platforms: [linux, macos]
+metadata:
+  hermes:
+    tags: [plaid, finance, banking, transactions, identity, ach, spending-analysis]
+  repository: https://github.com/salas81/plaidconnect-plugin
+  server: https://github.com/salas81/plaidconnect-server
